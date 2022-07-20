@@ -26,5 +26,6 @@ button.innerHTML = '<a href="./final.html">Verificar</a>'
 //fechar aviso
 function closeDanger() {
     document.body.classList.remove('active')
+    button.innerHTML = '<a href="./final.html">Verificar</a>'
 }
 
